@@ -1,0 +1,12 @@
+body {
+  font-family: "Times New Roman";
+  border-style: none;
+  margin: 0px;
+  outline:0px;
+  border: 0px;
+  padding: 0px; 
+}
+
+body:link {
+  color: purple
+}
