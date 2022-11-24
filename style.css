@@ -1,17 +1,13 @@
-@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document url-prefix(https://plato.stanford.edu/)
 {
-    body
-    {
-        font-family: "Times New Roman" !important;
-        border-style: none !important;
-        margin: 0px !important;
-        outline:0px !important;
-        border: 0px !important;
-        padding: 0px !important;
-}
+* {
+    font-family: "Times New Roman" !important;
+    /*
+    padding: 0px !important;
+    border-style: none !important;
+    outline:0px !important;
+    border: 0px !important;*/
+    margin: 0px !important;
 
-    body:link
-    {
-        color: purple !important;
-    }
+}
 }
