@@ -39,6 +39,7 @@ div#article {
 }
 
 
+
 a:link {
     color: indigo;
   }
@@ -52,6 +53,9 @@ a:link {
     font-size: 1.1em;
   }
 
+  div#article {
+    background-color: black !important;
+  }
   #container {
     background-color: black  !important;
 }
