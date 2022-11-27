@@ -1,19 +1,21 @@
 * {
    /* #
-      padding: 5px !important;
+    padding: 5px !important;
 
-    margin: 2px !important;*/
+   */
     font-family: "Times New Roman" !important;
     border: 0px !important;
     outline:0px !important;
     border-style: none !important;
-    margin-top: 2em !important;
-    margin-bottom: 2em !important;
     font-weight: 100 !important;
     hyphens: auto !important;
-   
+    margin: 25px 25px !important;
     
 }
+a:link {
+    color: indigo;
+  }
+
 * p {
     text-align: justify !important;
     text-justify: inter-word !important;
