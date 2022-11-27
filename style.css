@@ -3,8 +3,6 @@
     padding: 5px !important;
     margin: 2px !important;
     width: 99% !important; 
-   */
-   /*
     border: 0px !important;
     */
     font-family: "Times New Roman" !important;
@@ -13,7 +11,8 @@
     border-style: none !important;
 
     font-weight: 100 !important;
-    hyphens: auto !important;  
+    hyphens: auto !important; 
+
 }
 
 div#article {
@@ -50,8 +49,9 @@ a:link {
     line-height: 1.7 !important;
     margin-top: 1.5em !important;
     margin-bottom: 1em !important;
+    font-size: 2em;
   }
 
-  .container {
-    display: flex  !important;
+  #container {
+    background-color: black  !important;
 }
