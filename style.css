@@ -7,7 +7,10 @@
     border: 0px !important;
     outline:0px !important;
     border-style: none !important;
-  
+    margin-top: 2em !important;
+    margin-bottom: 2em !important;
+    font-weight: 100 !important;
+    hyphens: auto !important;
    
     
 }
@@ -15,13 +18,8 @@
     text-align: justify !important;
     text-justify: inter-word !important;
     line-height: 1.7 !important;
-    font-weight: 100 !important;
   }
 
   .container {
     display: flex  !important;
-    hyphens: auto !important;
-    -ms-hyphens: auto !important;
-    -moz-hyphens: auto !important;
-    -webkit-hyphens: auto !important;
 }
