@@ -14,7 +14,8 @@
 * p {
     text-align: justify !important;
     text-justify: inter-word !important;
-    line-height: 1.6 !important;
+    line-height: 1.7 !important;
+    font-weight: 100 !important;
   }
 
   .container {
