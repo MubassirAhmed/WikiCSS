@@ -3,9 +3,10 @@
     
     padding: 0px !important;
     border-style: none !important;
-    outline:0px !important;
+   
     border: 0px !important;
     margin: 2px !important;*/
+    outline:0px !important;
 }
 * p {
     text-align: justify !important;
