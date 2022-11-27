@@ -12,8 +12,7 @@
 * p {
     text-align: justify !important;
     text-justify: inter-word !important;
-    display: flex  !important;
-    hyphens: auto !important;
+
   }
 
   .container {
