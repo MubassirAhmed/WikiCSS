@@ -42,7 +42,7 @@ div#article {
 
 
 a:link {
-    color: indigo;
+    color: indigo !important;
   }
 
 * p {
@@ -51,7 +51,7 @@ a:link {
     line-height: 1.7 !important;
     margin-top: 1.5em !important;
     margin-bottom: 1em !important;
-    font-size: 1.1em;
+    font-size: 1.15em !important;
   }
 
   div#article {
