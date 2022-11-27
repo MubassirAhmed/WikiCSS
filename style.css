@@ -2,6 +2,7 @@
    /* #
     padding: 5px !important;
     margin: 2px !important;
+    width: 99% !important; 
    */
     font-family: "Times New Roman" !important;
     border: 0px !important;
@@ -11,8 +12,13 @@
     margin-bottom: 1em !important;
     font-weight: 100 !important;
     hyphens: auto !important;
-    width: 100% !important; 
     
+    
+}
+
+#container {
+  width:100% !important;
+  margin: 0 auto !important;
 }
 a:link {
     color: indigo;
