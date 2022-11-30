@@ -20,18 +20,29 @@ div#article {
     margin: 0 !important;
 }
 #article-content, #style_guide_content, #style_guide_content_wide{
-  margin:-16px !important;
+  margin:-25px !important;
 }
+
 
 
 #article-content h3{
     margin-bottom: -0.3em !important;
     margin-top: 1.85em !important;
+    color: bisque !important;
 }
 
 #article-content h2 {
     margin-bottom: -0.3em !important;
     margin-top: 1.6em !important;
+    color: bisque !important;
+}
+
+#article-content h1{
+  text-align: center !important;
+  padding-bottom: 2px !important;
+  padding-top: 20px !important;
+  color: bisque !important;
+
 }
 
 #article li, #content li {
@@ -39,7 +50,9 @@ div#article {
     margin-top: 1.35em !important;
 }
 
-
+#header-wrapper {
+  display: none !important;
+}
 
 a:link {
     color: indigo !important;
@@ -52,11 +65,19 @@ a:link {
     margin-top: 1.5em !important;
     margin-bottom: 1em !important;
     font-size: 1.15em !important;
+    color: steelblue !important;
   }
 
+  
   div#article {
     background-color: black !important;
   }
+
+  #article-sidebar {
+    display:none !important;
+  }
+
   #container {
     background-color: black  !important;
+    background-image: url('https://htmlcolors.com/color-image/000000.png') !important;
 }
