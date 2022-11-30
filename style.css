@@ -1,3 +1,6 @@
+@-moz-document regexp("(.*)\\.plato.stanford\\.(.*)")
+{
+
 * {
    /* #
     padding: 5px !important;
@@ -80,4 +83,18 @@ a:link {
   #container {
     background-color: black  !important;
     background-image: url('https://htmlcolors.com/color-image/000000.png') !important;
+}
+}
+
+* h1,h2,h3 {
+  color: bisque !important;
+}
+
+* span,p,li {
+ color: steelblue !important;
+}
+
+* {
+  background-color: black !important;
+  background-image: url('https://htmlcolors.com/color-image/000000.png') !important;
 }
