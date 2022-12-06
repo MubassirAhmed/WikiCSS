@@ -1,0 +1,118 @@
+/* ==UserStyle==
+@name        Wiki Mobile
+@description This is your new file, start writing code
+@match       https://en.m.wikipedia.org/*
+==/UserStyle== */
+* {
+   /* #
+    padding: 5px !important;
+    margin: 2px !important;
+    width: 99% !important; 
+    border: 0px !important;
+    */
+    font-family: "Times New Roman" !important;
+   
+    outline:0px !important;
+    border-style: none !important;
+
+    font-weight: 100 !important;
+    hyphens: auto !important; 
+  /*
+    background-color: black !important;
+*/
+}
+
+.mw-parser-output div.hatnote {
+    display: none;
+}
+
+.heading-holder {
+    padding: 10px !important;
+margin-bottom: -25px !important;
+}
+#bodyContent {
+    -webkit-user-select: auto;
+}
+
+.content {
+    line-height: 1.65;
+    word-wrap: break-word;
+}
+.content {}
+
+.content {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    overflow:hidden !important;
+}
+
+.content .mw-parser-output h1 .mw-editsection, .content .mw-parser-output h2 .mw-editsection, .content .mw-parser-output h3 .mw-editsection, .content .mw-parser-output h4 .mw-editsection, .content .mw-parser-output h5 .mw-editsection, .content .mw-parser-output h6 .mw-editsection {
+    display: none;
+}
+
+.mw-ui-icon-small.mw-ui-icon-flush-left {
+    display: none;
+}
+
+h3 {
+    margin-bottom: -0.3em !important;
+    margin-top: 1.85em !important;
+    color: bisque !important;
+}
+
+h2 {
+    margin-bottom: 5px !important;
+    margin-top: 0.25em !important;
+    margin-left: 8px !important;
+    color: bisque !important;
+}
+ul {
+    margin-left: 7.5px;
+}
+
+h1 {
+  text-align: center !important;
+  padding-bottom: 2px !important;
+  padding-top: 20px !important;
+  color: bisque !important;
+}
+.minerva__tab-container{
+display: none;
+}
+.page-actions-menu {
+display: none;
+}
+.mw-editsection{
+    display:hidden;
+}  
+
+.minerva-footer {
+    display: none !important;
+}
+a:link {
+    color: indigo !important;
+  }
+
+p,li {
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    line-height: 1.5 !important;
+    margin-top: 1.2em !important;
+    margin-bottom: 1em !important;
+    font-size: 15px !important;
+    color: steelblue !important;
+  }
+
+  
+  div#article {
+    background-color: black !important;
+  }
+
+  #article-sidebar {
+    display:none !important;
+  }
+
+  #container {
+    background-color: black  !important;
+    background-image: url('https://htmlcolors.com/color-image/000000.png') !important;
+}

@@ -1,0 +1,63 @@
+/* ==UserStyle==
+@name        Linkedin
+@description copied from chrome
+@match       https://www.linkedin.com/*
+==/UserStyle== */
+
+/*
+span, small, li,  p, button, header,  h1, .jobs-search-results-list__text  {
+  color:steelblue
+    background-color: black !important;
+}
+
+span, p {
+    text-align: justify !important;
+    text-justify: inter-word !important;
+  font-size:  1.1em !important;
+}
+
+.jobs-box__html-content p {
+  color: steelblue
+}
+*/
+
+*{
+   outline:0px !important;
+   font-weight: 500 !important;
+   background-image: url('https://htmlcolors.com/color-image/000000.png') 
+}
+
+h1, h2, h3, h4{
+  color: #b8b6ad;
+}
+
+a:link {
+    color: #bf8acf !important;
+
+}
+
+article {
+  margin-left:-50px;
+  margin-right:-50px;
+}
+ p, li {
+    color: #6b95b5 !important;/* e7e3d2 f4a9f1 78c4e2 */
+    font-size:20px !important;
+    text-align: justify !important;
+    text-justify: inter-word !important;
+    line-height: 1.7 !important;
+    font-family: "Times New Roman" !important;
+   
+
+ }
+
+ section, span {
+  color: #6b95b5 !important;
+
+ }
+
+  .container {
+    width:auto !important;
+  }
+
+

@@ -1,0 +1,36 @@
+/* ==UserStyle==
+@name        general
+@description This is your new file, start writing code
+@match       <all_urls>
+@exclude  https://www.linkedin.com/*
+@exclude       https://getliner.com/*
+==/UserStyle== */
+
+
+/*
+  #container {
+    background-image: url('https://htmlcolors.com/color-image/000000.png') !important;
+}*/
+
+*{
+   outline:0px !important;
+   border-color:darkgray !important;
+}
+
+h1, h2, h3, h4{
+  color: #b8b6ad;
+}
+
+a:link {
+    color: #bf8acf !important;
+   /* dba0db a67ea6  bf8cbf*/
+}
+
+
+ p, span, hi, li, section {
+    color: #6b95b5 !important;
+  }
+
+p {
+    font-family: serif;
+}
